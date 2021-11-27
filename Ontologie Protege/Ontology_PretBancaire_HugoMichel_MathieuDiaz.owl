@@ -1,0 +1,1184 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#"
+     xml:base="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Conseil -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Conseil">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Conseil"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Courtier"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Conseil"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Emprunteur"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Considéré -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Considéré">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Considéré"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Apport"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Considéré"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Epargne"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Considéré"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Revenu"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Considéré"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Atout_Financier"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Crée -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Crée">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Crée"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Emprunteur"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Crée"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Candidature"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Demande -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Demande">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Demande"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Emprunteur"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Demande"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Prêt"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Effectue -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Effectue">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Effectue"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Banque"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Effectue"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Emprunteur"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Effectue"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Apport"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Effectue"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Proposition_Financière"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Est_associe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Est_associe">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Est_associe"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Apport"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Est_associe"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Prêt"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Est_associe"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Risque"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Est_associe"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Dossier"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Est_associe"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Garant"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Est_associe"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Prêt"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Estime -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Estime">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Estime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Banque"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Estime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Risque"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Evalue -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Evalue">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Evalue"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Banque"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Evalue"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Dossier"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Exige -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Exige">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Exige"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Dossier"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Exige"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Condition"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Exprime -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Exprime">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Exprime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Banque"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Exprime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Sentiment"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Fixe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Fixe">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Fixe"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Banque"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Fixe"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Taux"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Gère -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Gère">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Gère"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Candidature"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Gère"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Argent"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Intervient -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Intervient">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Intervient"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Emprunteur"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Respecte"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Banque"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Intervient"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Processus"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Négocie -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Négocie">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Négocie"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Emprunteur"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Négocie"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Taux"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Ouverture -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Ouverture">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Ouverture"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Candidature"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Ouverture"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Dossier"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Possède -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Possède">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Possède"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Dossier"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Possède"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Emprunteur"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Possède"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Prêt"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Possède"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Bien"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Possède"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Durée_Mensualité"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Possède"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Echéance"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Possède"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Epargne"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Possède"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Etat"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Possède"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Paramètre"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Possède"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Revenu"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Possède"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Situation"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Respecte -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Respecte">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Respecte"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Dossier"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Respecte"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Réglementation"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Trouve -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Trouve">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Trouve"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Courtier"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Trouve"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Taux"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Abstraite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Abstraite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Domaine_d&apos;application"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Acteur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Acteur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Physique"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Apport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Apport">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Argent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Apprécié -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Apprécié">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Sentiment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Argent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Argent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Quantité_Physique"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Atout_Financier -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Atout_Financier">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Abstraite"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Banque -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Banque">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Personne_Morale"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Banque_Locale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Banque_Locale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Banque"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Banque_National -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Banque_National">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Banque"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Banque_Régional -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Banque_Régional">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Banque"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Bien -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Bien">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Physique"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#CDD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#CDD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Emploi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#CDI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#CDI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Emploi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Candidature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Candidature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Processus"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Caution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Caution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Argent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Communication -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Communication">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Processus"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Condition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Condition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Confiant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Confiant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Sentiment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Courtier -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Courtier">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Personne_Physique"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Dossier -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Dossier">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Durée_Mensualité -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Durée_Mensualité">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Paramètre_Temporel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Echéance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Echéance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Paramètre_Temporel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Emploi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Emploi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Situation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Emprunteur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Emprunteur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Personne_Physique"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Epargne -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Epargne">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Argent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Etat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Etat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Abstraite"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Garant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Garant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Personne_Physique"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Immatériel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Immatériel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Bien"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Immobilier -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Immobilier">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Matériel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Information -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Information">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Physique"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Investisseur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Investisseur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Personne_Physique"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Matériel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Matériel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Bien"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Montant_Mensualité -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Montant_Mensualité">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Nombre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Nombre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Nombre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Quantité"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Objet_De_Valeur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Objet_De_Valeur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Matériel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Paramètre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Paramètre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Paramètre_Temporel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Paramètre_Temporel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Paramètre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Personne_Morale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Personne_Morale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Acteur"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Personne_Physique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Personne_Physique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Acteur"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Physique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Physique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Domaine_d&apos;application"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Processus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Processus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Abstraite"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Proposition_Financière -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Proposition_Financière">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Abstraite"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Prêt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Prêt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Argent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Quantité -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Quantité">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Abstraite"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Quantité_Physique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Quantité_Physique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Quantité"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Remboursement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Remboursement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Processus"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Revenu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Revenu">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Argent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Risque -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Risque">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Sentiment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Réglementation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Réglementation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Sans_Emploi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Sans_Emploi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Situation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Sentiment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Sentiment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Abstraite"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Situation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Situation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Abstraite"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Taux -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Taux">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Nombre"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Domaine_d&apos;application -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Domaine_d&apos;application"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Accordé -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Accordé">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Etat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Appartement -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Appartement">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Immobilier"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Bonne -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Bonne">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Situation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Capital -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Capital">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Atout_Financier"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Credit_Agricole_Genay -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Credit_Agricole_Genay">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Banque_Locale"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Crédit_Agricole -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Crédit_Agricole">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Banque_National"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Crédit_Agricole_Centre-Est -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Crédit_Agricole_Centre-Est">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Banque_Régional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Défavorable -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Défavorable">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Sentiment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Email -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Email">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Communication"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#En_Cours -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#En_Cours">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Etat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Favorable -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Favorable">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Sentiment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Haut_Revenu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Haut_Revenu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Atout_Financier"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Jean_Michel_Aulas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Jean_Michel_Aulas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Personne_Physique"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Lettre_Recomandée -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Lettre_Recomandée">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Communication"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Maison -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Maison">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Immobilier"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Marc_Dupond -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Marc_Dupond">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Personne_Physique"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Mauvaise -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Mauvaise">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Situation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Non_Remboursé -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Non_Remboursé">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Etat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Partiel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Partiel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Remboursement"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Rejeté -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Rejeté">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Etat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Remboursé -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Remboursé">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Etat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Total -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Total">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Remboursement"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Taux"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#10_Mois -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#10_Mois">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Durée_Mensualité"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#12_Mars_2020 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#12_Mars_2020">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Echéance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#14_Mars_2020 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#14_Mars_2020">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Echéance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Taux"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#2000e -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#2000e">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Apport"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Caution"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Epargne"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Montant_Mensualité"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Revenu"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#3000e -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#3000e">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Apport"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Caution"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Epargne"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Montant_Mensualité"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Revenu"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#3000e_Revenu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#3000e_Revenu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Condition"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#36_Mois -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#36_Mois">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2020/10/IF28/DiazMatiheu_HugoMichel/PretBancaire#Durée_Mensualité"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

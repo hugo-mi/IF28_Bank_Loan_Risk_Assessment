@@ -1,0 +1,34 @@
+L'étude des revenus de l'emprunteur
+Pour savoir si elle va accorder ou non un crédit à son client, la banque calcule son taux d'endettement : schématiquement, ses charges rapportées à ses ressources. En complément, elle réalise une étude approfondie de ses revenus (leur évolution possible, calcul du reste à vivre...). Son objectif est ainsi d’anticiper la situation financière du ménage pendant le remboursement du prêt. En fonction des résultats obtenus, le prêteur pourra accepter un taux d’endettement « standard » de 33%, plus restrictif à 30% ou, au contraire, plus souple à 35%. Ces critères de revenus sont déterminants pour la poursuite de l’étude de dossier, car si la demande de financement ne peut s'y conformer, la banque la refusera.
+
+Le « reste à vivre »
+Le reste à vivre est la part des revenus qu’il reste au ménage pour financer les dépenses courantes une fois les charges d’emprunts payées. Il se calcule, le plus souvent sur une base mensuelle, en déduisant des revenus nets les échéances d’emprunts. La banque vérifie si le reste à vivre est suffisant pour satisfaire les besoins du foyer, selon un barème qu’elle s’est fixée, généralement adapté à la localisation du bien. Par exemple, une banque peut exiger un reste à vivre minimum de 800 euros pour une personne seule, 1 000 euros pour un couple avec 300 euros supplémentaires par enfant à charge.
+
+Le « quotient familial »
+Le quotient familial est parfois utilisé en remplacement ou en complément du « reste à vivre ». Il représente le revenu disponible annuel par personne. Le quotient familial est déterminé par le rapport entre les revenus nets hors charges d’emprunts et le nombre de personnes composant le foyer. Certains établissements retiennent le nombre réel de personnes alors que d’autres utilisent le nombre de parts fiscales du foyer. Par exemple, un quotient familial de 4 500 euros peut être réclamé par la banque.
+
+Les dépenses futures
+En complément du reste à vivre et du quotient exigés par la banque, une estimation des futurs besoins du demandeur est également réalisée. Les charges liées directement au projet vont être étudiées. Par exemple, lorsque le bien n’est pas habitable en l’état, l’emprunteur doit pouvoir faire face au loyer du logement qu'il habitera pendant les travaux. En outre, des dépenses d’équipements pour le nouveau logement ou un achat de véhicule peuvent être à prévoir, et dans ce cas, l’emprunteur doit garder une capacité de financement ou disposer d’une épargne suffisante après le projet.
+
+Le scoring de l'emprunteur
+Parallèlement à l’étude des revenus, la banque poursuit son analyse par le calcul d’un scoring. C'est-à-dire une note attribuée au futur emprunteur d’après un ensemble de critères qualitatifs. Ce score rend compte de la qualité du dossier, il permet d’apprécier le niveau de risque pris par la banque si elle accepte de financer le projet.
+
+Ainsi, la banque accepte ou non la demande de prêt sur la base d'une évaluation globale se basant sur de multiples critères. Par exemple, le simple fait de ne pas disposer d'un apport personnel suffisant ou de ne pas être en CDI ne constitue pas en soi une barrière pour obtenir un prêt immobilier. Dans le cas où l'ensemble des paramètres étudiés donne un score trop faible, cela peut amener l’établissement de crédit à rejeter un dossier de financement. A l'inverse, si le score obtenu est élevé, le prêteur accordera des conditions de prêt avantageuses pour attirer le demandeur.
+
+De plus, suivant ce scoring, la banque sera plus ou moins exigeante sur la prise des garanties. Elle exigera une hypothèque pour les scores les plus faibles, alors qu’elle pourra accepter une caution mutuelle pour les autres.
+
+L’élaboration du scoring est propre à chaque banque. Toutefois, la liste ci-dessous, non exhaustive, présente les éléments les plus significatifs et leurs valeurs optimales :
+
+Apport personnel : entre 10 et 30% (plus risqué en-dessous, moins rentable au-dessus) ;
+Situation professionnelle : contrat de travail (privé ou fonction publique) avec une ancienneté dans la fonction ;
+Durée du prêt : entre 15 et 25 ans (moins rentable en-dessous, plus risqué au-dessus) ;
+Situation familiale : considérée comme « stable » pendant la durée du prêt ;
+Age des souscripteurs : 25 à 50 ans ;
+Appréciation globale du dossier
+Pour compléter leur étude, les banques utilisent d'autres données qui sont plus difficilement quantifiables. A partir de ces informations, le prêteur va déterminer un profil d’emprunteur plus ou moins favorable qui peut impacter le scoring et les conditions de financement.
+
+Tout d’abord, l'analyse des trois derniers relevés de compte courant va permettre à l’établissement bancaire d’établir le comportement financier du demandeur. Cela permet de vérifier les informations fournies (salaires, pensions alimentaires, allocations, impôts, charges d’emprunt en cours…) ainsi que les éventuels incidents de paiement (découverts, retards de paiement sur échéance d’emprunt…) qui décrédibilise le futur emprunteur.
+
+Néanmoins, une part de subjectivité existe dans cette étude et chaque décideur aura un regard différent. En effet, les relevés de compte constituent une « mine d’or » pour les prêteurs qui peuvent y trouver les habitudes de consommation des demandeurs et leur « train de vie » par rapport à la composition du foyer.
+
+La banque va tenir compte, aussi, de certains critères complémentaires, comme la capacité d’épargne (le montant épargné chaque mois) qui gage de la faculté de l’emprunteur à faire face à une éventuelle augmentation de ses charges fixes. Ou encore, le fait que le futur emprunteur soit habitué à payer un loyer, pendant plusieurs années, un indice de sa maturité face à des engagements.
