@@ -1,5 +1,3 @@
-https://acrobat.adobe.com/id/urn:aaid:sc:EU:132db531-2e6c-41f3-80b0-365d446d57da
-
 # IF28_Bank_Loan_Risk_Assessment
 
 ## Présentation du projet
